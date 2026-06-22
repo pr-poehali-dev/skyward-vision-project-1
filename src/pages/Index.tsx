@@ -152,7 +152,7 @@ const Index = () => {
       {/* Features Section */}
       <section className="relative z-10 py-24 px-6">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
             {/* Project */}
             <div className="rounded-2xl bg-black/20 ring-1 ring-white/15 backdrop-blur p-8 text-center">
               <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-black/30 ring-1 ring-white/20 mb-6">
@@ -167,7 +167,7 @@ const Index = () => {
               <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-black/30 ring-1 ring-white/20 mb-6">
                 <Icon name="Sprout" className="w-6 h-6" />
               </div>
-              <h3 className="text-xl font-semibold mb-4">Здоровые растения</h3>
+              <h3 className="text-xl font-semibold mb-4">Озеленение</h3>
               <p className="text-white/80 leading-relaxed">Отборный посадочный материал из проверенных питомников.</p>
             </div>
 
@@ -178,6 +178,24 @@ const Index = () => {
               </div>
               <h3 className="text-xl font-semibold mb-4">Работа под ключ</h3>
               <p className="text-white/80 leading-relaxed">Полный цикл: от посадки до полива, дорожек и освещения.</p>
+            </div>
+
+            {/* Drainage */}
+            <div className="rounded-2xl bg-black/20 ring-1 ring-white/15 backdrop-blur p-8 text-center">
+              <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-black/30 ring-1 ring-white/20 mb-6">
+                <Icon name="Droplets" className="w-6 h-6" />
+              </div>
+              <h3 className="text-xl font-semibold mb-4">Дренаж участка</h3>
+              <p className="text-white/80 leading-relaxed">Отводим лишнюю воду, чтобы участок не заболачивался даже в сезон дождей.</p>
+            </div>
+
+            {/* Paving */}
+            <div className="rounded-2xl bg-black/20 ring-1 ring-white/15 backdrop-blur p-8 text-center">
+              <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-black/30 ring-1 ring-white/20 mb-6">
+                <Icon name="Grid3x3" className="w-6 h-6" />
+              </div>
+              <h3 className="text-xl font-semibold mb-4">Укладка брусчатки</h3>
+              <p className="text-white/80 leading-relaxed">Мощение дорожек, площадок и въездов — аккуратно и надолго.</p>
             </div>
 
             {/* Care */}
