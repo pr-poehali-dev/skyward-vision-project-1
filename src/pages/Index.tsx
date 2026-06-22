@@ -22,19 +22,19 @@ const Index = () => {
 
   const projects: Project[] = [
     {
-      title: "Сад загородного дома",
+      title: "Газон и брусчатка",
+      category: "Благоустройство частного участка",
+      image: "https://cdn.poehali.dev/projects/f1b2c39b-9c66-4696-8329-a4c0539deecb/bucket/69cc2a94-73d2-40bb-a08c-63fd642c880a.jpg",
+    },
+    {
+      title: "Озеленение с хвойными",
       category: "Ландшафтный проект под ключ",
-      image: "https://cdn.poehali.dev/projects/f1b2c39b-9c66-4696-8329-a4c0539deecb/files/4b068a87-07ae-4e34-9af5-b0475533da06.jpg",
+      image: "https://cdn.poehali.dev/projects/f1b2c39b-9c66-4696-8329-a4c0539deecb/bucket/adb864a2-605e-4404-9f6f-2ae360263960.jpg",
     },
     {
-      title: "Цветники и водоём",
-      category: "Озеленение участка",
-      image: "https://cdn.poehali.dev/projects/f1b2c39b-9c66-4696-8329-a4c0539deecb/files/56f096ca-1496-43ac-9e70-4ce46042e4dd.jpg",
-    },
-    {
-      title: "Зона отдыха с патио",
-      category: "Благоустройство территории",
-      image: "https://cdn.poehali.dev/projects/f1b2c39b-9c66-4696-8329-a4c0539deecb/files/e2165b95-38ab-44cf-986d-36d0424732fb.jpg",
+      title: "Зона отдыха в сосновом саду",
+      category: "Дорожки, мульча и подсветка",
+      image: "https://cdn.poehali.dev/projects/f1b2c39b-9c66-4696-8329-a4c0539deecb/bucket/8dabe52f-67d1-4a06-b31d-61f3aa2c77b0.jpg",
     },
   ]
 
