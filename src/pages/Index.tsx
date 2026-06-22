@@ -81,7 +81,7 @@ const Index = () => {
           {/* Logo */}
           <div className="flex items-center gap-2 px-4 py-2 bg-black/40 ring-1 ring-white/20 backdrop-blur rounded-full">
             <Icon name="Leaf" className="w-5 h-5" />
-            <span className="font-medium text-balance">Зелёный Сад</span>
+            <span className="font-medium text-balance">Зелёная Империя</span>
           </div>
 
           {/* Navigation Links */}
@@ -438,7 +438,7 @@ const Index = () => {
               <div className="lg:col-span-2">
                 <div className="flex items-center gap-2 mb-6">
                   <Icon name="Leaf" className="w-6 h-6" />
-                  <span className="text-xl font-semibold">Зелёный Сад</span>
+                  <span className="text-xl font-semibold">Зелёная Империя</span>
                 </div>
                 <p className="text-white/80 leading-relaxed text-pretty">
                   Студия ландшафтного дизайна и озеленения. Создаём живые, ухоженные сады под ключ — от проекта до
@@ -506,7 +506,7 @@ const Index = () => {
 
             {/* Sub-footer */}
             <div className="border-t border-white/10 pt-8">
-              <p className="text-white/60 text-sm text-center">© 2025 Зелёный Сад</p>
+              <p className="text-white/60 text-sm text-center">© 2025 Зелёная Империя</p>
             </div>
           </div>
         </div>
